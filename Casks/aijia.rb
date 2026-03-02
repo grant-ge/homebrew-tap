@@ -1,8 +1,8 @@
 cask "aijia" do
-  version "0.2.0"
-  sha256 "0a1ffd9d7426d48338ac785986915aa8fa7e4c3a686b89624905224dc0dcfdf4"
+  version "0.3.0"
+  sha256 "8121a2cfb5ed9074cdc14fcdd25723ad7d33aa73cd3e0801bafdcd58f6b666be"
 
-  url "https://github.com/grant-ge/aiminjia/releases/download/v#{version}/aijia_#{version}_aarch64.dmg"
+  url "https://github.com/grant-ge/aiminjia/releases/download/v0.3.1/AI._#{version}_aarch64.dmg"
   name "AI小家"
   desc "AI-powered HR compensation analysis assistant"
   homepage "https://github.com/grant-ge/aiminjia"
