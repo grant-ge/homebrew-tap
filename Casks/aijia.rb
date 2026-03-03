@@ -1,6 +1,6 @@
 cask "aijia" do
-  version "0.3.3"
-  sha256 "365f8a72ea517f8ec60c0e5b6914b3294aadb90c48e1dd567b20b9ea9c31f26f"
+  version "0.3.4"
+  sha256 "eae75c77906bbe5e94e85d2183cf011c88d4639f6db13fd93502d2ddbec6da74"
 
   url "https://github.com/grant-ge/aiminjia/releases/download/v#{version}/aijia_#{version}_aarch64.dmg"
   name "AI小家"
