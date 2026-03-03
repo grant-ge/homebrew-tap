@@ -3,11 +3,11 @@ cask "aijia" do
   sha256 :no_check
 
   on_arm do
-    url "https://lotus-releases.oss-cn-beijing.aliyuncs.com/aijia/v#{version}/AIjia_#{version}_aarch64.dmg"
+    url "https://lotus.renlijia.com/aijia/v#{version}/AIjia_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    url "https://lotus-releases.oss-cn-beijing.aliyuncs.com/aijia/v#{version}/AIjia_#{version}_x64.dmg"
+    url "https://lotus.renlijia.com/aijia/v#{version}/AIjia_#{version}_x64.dmg"
   end
 
   name "AI小家"
