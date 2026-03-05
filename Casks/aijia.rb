@@ -22,6 +22,13 @@ cask "aijia" do
                    sudo: false
   end
 
+  caveats <<~EOS
+    首次打开 AI小家 时，如果遇到"已损坏"提示，请在终端执行：
+      xattr -cr /Applications/AIjia.app
+
+    或者在 Finder 中右键点击应用，选择"打开"（而非双击）。
+  EOS
+
   zap trash: [
     "~/Library/Application Support/com.aijia.app",
     "~/.renlijia",
