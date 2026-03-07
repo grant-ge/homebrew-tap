@@ -27,6 +27,10 @@ cask "aijia" do
       xattr -cr /Applications/AIjia.app
 
     或者在 Finder 中右键点击应用，选择"打开"（而非双击）。
+
+    从旧版本升级时，如果遇到 "AI小家.app is not there" 错误，请手动删除旧版：
+      rm -rf "/Applications/AI小家.app"
+      brew reinstall grant-ge/tap/aijia
   EOS
 
   zap trash: [
@@ -34,4 +38,3 @@ cask "aijia" do
     "~/.renlijia",
   ]
 end
-
