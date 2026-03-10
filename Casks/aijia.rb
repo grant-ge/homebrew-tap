@@ -1,5 +1,5 @@
 cask "aijia" do
-  version "0.3.20"
+  version "0.3.21"
   sha256 :no_check
 
   on_arm do
@@ -38,3 +38,4 @@ cask "aijia" do
     "~/.renlijia",
   ]
 end
+
