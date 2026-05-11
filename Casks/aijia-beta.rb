@@ -1,12 +1,12 @@
 cask "aijia-beta" do
-  version "0.5.22"
+  version "0.5.22-beta.1"
   sha256 :no_check
 
   on_arm do
-    url "https://lotus.renlijia.com/aijia/beta/v#{version}/AIjia_#{version}-beta_aarch64.dmg"
+    url "https://lotus.renlijia.com/aijia/beta/v#{version}/AIjia_#{version}_aarch64.dmg"
   end
   on_intel do
-    url "https://lotus.renlijia.com/aijia/beta/v#{version}/AIjia_#{version}-beta_x64.dmg"
+    url "https://lotus.renlijia.com/aijia/beta/v#{version}/AIjia_#{version}_x64.dmg"
   end
 
   name "AIjia (Beta)"
