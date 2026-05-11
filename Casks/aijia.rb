@@ -1,5 +1,5 @@
 cask "aijia" do
-  version "0.5.21"
+  version "0.5.22"
   sha256 :no_check
 
   on_arm do
